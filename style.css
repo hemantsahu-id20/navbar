@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(243, 249, 255);
+    #1b2538
+}
+.brand-logo{
+    height: 80px;
+    margin-left: 5px;
+    display: flex;
+    cursor: pointer;
+}
+.logo{
+    height: 80px;
+}
+h1{
+    color: #1b2538;
+}
+.main-container{
+    display: flex;
+    background-color: #b7deeb;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+
+}
+.events{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-right: 10px;
+
+}
+li{
+    list-style: none;
+    padding: 0 19px;
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+    transition:0.3s ease;
+    color: #1b2538;
+}
+a{   
+    text-decoration: none;
+    color:  #1b2538;
+}
